@@ -8,11 +8,10 @@
 	<link rel="stylesheet" type="text/css" href="<?static:/css/style.css?>">
 	<link rel="stylesheet" type="text/css" href="<?static:/css/dfeed.css?>">
 	<link rel="shortcut icon" href="/favicon.ico">
-	<!--script src="/js/hyphenate_selectively.js" type="text/javascript"></script-->
 	<?extraheaders?>
 </head>
 
-<body onLoad='bodyLoad()' class='hyphenate <?bodyclass?>'>
+<body>
 	<div id="header">
 		<div id="breadcrumbs">
 			<a href="/">RejectedSoftware Discussion Forums</a>

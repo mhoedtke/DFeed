@@ -43,15 +43,17 @@
 	body.widedoc #group-split-list { width: 300px; }
 }
 
+body {
+	font-family: "Lucida sans", sans-serif;
+}
+
 /*************** Title / Breadcrumbs ***************/
 
 #breadcrumbs {
 	color: black;
-	position: absolute;
 	top: 20px;
 	left: 210px;
 	font-size: 1.7em;
-	font-family: Georgia, "Times New Roman", Times, serif;
 	font-variant: small-caps;
 }
 
@@ -163,7 +165,6 @@ th .forum-read:visited {
 /* "Create thread" button */
 
 .header-tools {
-	position: absolute;
 	top: 3px;
 	right: 3px;
 }
