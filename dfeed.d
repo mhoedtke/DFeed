@@ -42,8 +42,8 @@ void main(string[] args)
 		"q|quiet", &common.quiet);
 
 	// Create sources
-	new NntpDownloader("news.digitalmars.com", false);
-	new NntpListener("news.digitalmars.com");
+	new NntpDownloader("news.rejectedsoftware.com", false);
+	new NntpListener("news.rejectedsoftware.com");
 	new MailingLists();
 	new StackOverflow("d");
 	new Feed("Planet D", "http://planetd.thecybershadow.net/_atom.xml");

@@ -31,7 +31,7 @@ void main(string[] args)
 		"q|quiet", &common.quiet,
 		"f|full", &full);
 
-	new NntpDownloader("news.digitalmars.com", full);
+	new NntpDownloader("news.rejectedsoftware.com", full);
 	new MessageDBSink();
 
 	startNewsSources();
