@@ -516,49 +516,8 @@ class WebUI
 	struct GroupSet { string name; GroupInfo[] groups; }
 
 	/*const*/ GroupSet[] groupHierarchy = [
-	{ "D Programming Language", [
-		{ false,	"digitalmars.D",			"General discussion of the D programming language." },
-		{ false,	"digitalmars.D.announce",	"Announcements for anything D related" },
-		{ false,	"digitalmars.D.bugs",		"Bug reports for D compiler and library" },
-		{ false,	"digitalmars.D.debugger",	"Debuggers for D" },
-		{ false,	"digitalmars.D.dwt",		"Developing the D Widget Toolkit" },
-		{ false,	"digitalmars.D.dtl",		"Developing the D Template Library" },
-		{ false,	"digitalmars.D.ide",		"Integrated Debugging Environments for D" },
-		{ false,	"digitalmars.D.learn",		"Questions about learning D" },
-		{ false,	"D.gnu",					"GDC, the Gnu D Compiler " },
-		{ true,		"dmd-beta",					"Notify of and discuss beta versions" },
-		{ true,		"dmd-concurrency",			"Design of concurrency features in D and library" },
-		{ true,		"dmd-internals",			"dmd compiler internal design and implementation" },
-		{ true,		"phobos",					"Phobos standard library design and implementation" },
-		{ true,		"D-runtime",				"Runtime library design and implementation" },
-	]},
-	{ "C and C++", [
-		{ false,	"c++",						"General discussion of DMC++ compiler" },
-		{ false,	"c++.announce",				"Announcements about C++" },
-		{ false,	"c++.atl",					"Microsoft's Advanced Template Library" },
-		{ false,	"c++.beta",					"Test versions of various C++ products" },
-		{ false,	"c++.chat",					"Off topic discussions" },
-		{ false,	"c++.command-line",			"Command line tools" },
-		{ false,	"c++.dos",					"DMC++ and DOS" },
-		{ false,	"c++.dos.16-bits",			"16 bit DOS topics" },
-		{ false,	"c++.dos.32-bits",			"32 bit extended DOS topics" },
-		{ false,	"c++.idde",					"The Digital Mars Integrated Development and Debugging Environment" },
-		{ false,	"c++.mfc",					"Microsoft Foundation Classes" },
-		{ false,	"c++.rtl",					"C++ Runtime Library" },
-		{ false,	"c++.stl",					"Standard Template Library" },
-		{ false,	"c++.stl.hp",				"HP's Standard Template Library" },
-		{ false,	"c++.stl.port",				"STLPort Standard Template Library" },
-		{ false,	"c++.stl.sgi",				"SGI's Standard Template Library" },
-		{ false,	"c++.stlsoft",				"Stlsoft products" },
-		{ false,	"c++.windows",				"Writing C++ code for Microsoft Windows" },
-		{ false,	"c++.windows.16-bits",		"16 bit Windows topics" },
-		{ false,	"c++.windows.32-bits",		"32 bit Windows topics" },
-		{ false,	"c++.wxwindows",			"wxWindows" },
-	]},
-	{ "Other", [
-		{ false,	"DMDScript",				"General discussion of DMDScript" },
-		{ false,	"digitalmars.empire",		"General discussion of Empire, the Wargame of the Century" },
-		{ false,	"D",						"Retired, use digitalmars.D instead" },
+	{ "vibe.d", [
+		{ false,	"rejectedsoftware.vibed",			"General vibe.d related discussion" },
 	]}];
 
 	GroupInfo* getGroupInfo(string name)

@@ -142,7 +142,7 @@ private:
 		nntp.handlePosted = &onPosted;
 		nntp.handleDisconnect = &onDisconnect;
 		nntp.handleError = &onError;
-		nntp.connect("news.digitalmars.com");
+		nntp.connect("news.rejectedsoftware.com");
 	}
 
 	void onDisconnect(string error)

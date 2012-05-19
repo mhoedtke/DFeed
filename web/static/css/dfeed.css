@@ -46,7 +46,7 @@
 /*************** Title / Breadcrumbs ***************/
 
 #breadcrumbs {
-	color: white;
+	color: black;
 	position: absolute;
 	top: 20px;
 	left: 210px;
@@ -62,7 +62,7 @@
 
 #breadcrumb1,
 #breadcrumb2 {
-	color: #ccc;
+	color: #444;
 	font-size: 12pt;
 }
 
