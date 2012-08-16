@@ -126,6 +126,8 @@ class WebUI
 		auto response = new HttpResponseEx();
 
 		ip = request.remoteHosts(conn.remoteAddress.toAddrString())[0];
+		if( ip == "127.0.0.1" || ip == "::" || ip == "localhost" )
+			ip = aaGet(request.headers, "X-Forwarded-For", ip);
 		user = getUser("Cookie" in request.headers ? request.headers["Cookie"] : null);
 		scope(success) foreach (cookie; user.save()) response.headers.add("Set-Cookie", cookie);
 
